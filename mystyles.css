@@ -1,0 +1,136 @@
+/* Stylesheet for A Balcony in BK */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento&display=swap" rel="stylesheet"'); body {
+  margin: 0;
+}
+
+@font-face {font-family: 'BBBouquet-Bretz';
+  src: url(Bretz/BBBouquet-UltraExpanded.woff2);
+   ,
+}
+
+div {
+  font-family: myFirstFont;
+}
+
+#container {
+  max-width: 60em;
+  margin: auto;
+}
+
+
+header, nav, footer {
+  padding: 1em;
+  color: white
+}
+
+h1 {
+    font-family: 'BBBouquet-Bretz',serif;
+
+}
+
+nav {
+    font-family: 'BBBouquet-Bretz',serif;
+
+}
+
+footer {
+    font-family: 'BBBouquet-Bretz',serif;
+}
+p {
+    font-family: 'BBBouquet-Bretz',serif;
+
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.selected {
+    background-color: #fff6ba;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.3em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 500ms;
+}
+
+article {
+  padding: 1em;
+  padding-bottom: 0;
+}
+
+article > p {
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-property: background-color;
+  transition-duration: 250ms;
+}
+
+a.dark:link, a.dark:visited {
+  color: white;
+}
+
+h1 > a:link, h1 > a:visited {
+  text-transform: none;
+}
+
+a:hover {
+    background-color: #b6bac2;
+}
+
+a:active {
+    background-color: #fff6ba;
+}
+
+a.seasons:hover {
+  /*opacity: 0.5;*/
+  background-color: transparent;
+}
+
+a.seasons:active {
+  /*opacity: 1;*/
+  background-color: transparent;
+}
+
+@media (min-width: 30em) {
+
+  nav {
+    flex-direction: row;
+  }
+
+  nav > a {
+    margin-right: 1em;
+  }
+
+}
+
+@media (min-width: 45em) {
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  article {
+    padding-top: 0;
+  }
+
+}
