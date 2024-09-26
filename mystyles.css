@@ -14,7 +14,7 @@ div {
 }
 
 #container {
-  max-width: 100em;
+  max-width: 60em;
   margin: auto;
 }
 
@@ -45,7 +45,7 @@ p {
 
 nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
    
 }
 
@@ -57,8 +57,8 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.3em;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+ text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 img {
@@ -72,8 +72,8 @@ article {
   padding: 1em;
   color:white;
   padding-bottom: 0;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 article > p {
@@ -82,8 +82,8 @@ article > p {
   margin-top: 0;
   margin-bottom: 0;
 
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 a:link, a:visited {
@@ -92,26 +92,26 @@ a:link, a:visited {
   text-transform: uppercase;
   transition-property: background-color;
   transition-duration: 250ms;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 a.dark:link, a.dark:visited {
   color: white;
- text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+ text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 h1 > a:link, h1 > a:visited {
   text-transform: none;
-   text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+   text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 a:link {
   color: #ffffff;
-   text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+   text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 a:visited {
@@ -159,8 +159,8 @@ a.seasons:active {
 
   article {
     padding-top: 0;
-     text-shadow: -2px -2px 0 black, 2px -2px 0 black, 2px 2px 0 black,
-    2px 2px 0 black;
+     text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    1px 1px 0 black;
   }
 
 }
