@@ -1,4 +1,4 @@
-/* Stylesheet for A Balcony in BK */
+/* Stylesheet for mrm film*/
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Sacramento&display=swap" rel="stylesheet"'); body {
   margin: 0;
@@ -6,7 +6,7 @@
 
 @font-face {font-family: 'BBBouquet-Bretz';
   src: url(Bretz/BBBouquet-UltraExpanded.woff2);
-   ,
+   
 }
 
 div {
@@ -39,7 +39,7 @@ footer {
 }
 p {
     font-family: 'BBBouquet-Bretz',serif;
-  
+  color: white;
   
 }
 
@@ -50,7 +50,7 @@ nav {
 }
 
 .selected {
-    background-color: #fff6ba;
+    background-color: #ffffff;
 }
 
 main {
@@ -68,17 +68,19 @@ img {
 
 article {
   padding: 1em;
+  color:white;
   padding-bottom: 0;
 }
 
 article > p {
   font-size: 1.2em;
+  color: white;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 a:link, a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   transition-property: background-color;
@@ -94,25 +96,25 @@ h1 > a:link, h1 > a:visited {
 }
 
 a:link {
-  color: #2f3028;
+  color: #ffffff;
 }
 
 a:visited {
-  color: #3d3b15;
+  color: ##940303;
 }
 
 
 a:hover {
-    background-color: #8e9991;
+    background-color: #940303;
 }
 
 a:active {
-    background-color: #fff6ba;
+    background-color: #940303;
 }
 
 a.seasons:hover {
   /*opacity: 0.5;*/
-  background-color: transparent;
+  background-color: #940303;
 }
 
 a.seasons:active {
